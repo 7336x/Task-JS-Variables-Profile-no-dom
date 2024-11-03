@@ -10,6 +10,12 @@
  */
 
 // Part 1 answer 👇🏻 ...
+let fullName = "Reem Alhussaini";
+let yearOfBirth = 2001 ;
+let hobby = "playing guitar";
+let funFact = "nothing";
+let image = "https://pixabay.com/vectors/blank-profile-picture-mystery-man-973460/";
+
 
 /**
  * Part 2: String Interpolation
@@ -24,9 +30,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const ageString =
-// const hobbyString =
+ fullNameString = `My name is ${fullName}`;
+ageString = `I am ${2024-yearOfBirth}`;
+const hobbyString =`My hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment
@@ -37,29 +43,33 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars += 1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars -= 1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars += 2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars -= 2;
 }
 
 // TODO: Uncomment these variables as you work on them
 // Make sure they're all uncommented before you push your solution!
 module.exports = {
-  // fullName,
-  // yearOfBirth,
-  // hobby,
-  // funFact,
-  // image,
-  // fullNameString,
-  // ageString,
-  // hobbyString,
+  fullName,
+   yearOfBirth,
+   hobby,
+  funFact,
+   image,
+   fullNameString,
+   ageString,
+  hobbyString,
   incrementBy1,
   incrementBy2,
   decrementBy1,
